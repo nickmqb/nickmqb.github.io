@@ -4,7 +4,7 @@ title:  Building a language server for Muon
 date:   2019-11-24 23:00:00 +0100
 ---
 
-I'm a big fan of interactive tool support for programming. I often use features like "go to definition", "find symbol", compile error underlining, etc. Also, earlier this year, I launched Muon, a new low-level programming language. As no tooling existed beyond the compiler, writing the initial Muon programs (such as a [self hosted compiler](https://github.com/nickmqb/muon/tree/master/compiler)) turned out to be a pretty interesting experience -- for the first time in years I found myself writing code using nothing more than a text editor.
+I'm a big fan of interactive tool support for programming. I often use features like "go to definition", "find symbol", compile error underlining, etc. Also, earlier this year, I launched [Muon, a new low-level programming language](https://github.com/nickmqb/muon). As no tooling existed beyond the compiler, writing the initial Muon programs (such as a [self hosted compiler](https://github.com/nickmqb/muon/tree/master/compiler)) turned out to be a pretty interesting experience -- for the first time in years I found myself writing code using nothing more than a text editor.
 
 While I actually missed my tools less than I thought I would, I did find that the lack of tool support slowed me down in some places. Statically typed languages in particular lend themselves well to a high level of tool support, and as Muon is a statically typed language, the contrast with various tools for mature languages like C and C# was pretty stark. So, I figured it was time to remedy this situation.
 
